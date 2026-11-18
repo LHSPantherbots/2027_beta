@@ -11,8 +11,9 @@ import com.revrobotics.spark.SparkMax;
 public class SparkSubsystem extends SubsystemBase {
   /** Creates a new SparkSubsystem. */
   private final SparkMax spark;
+
   public SparkSubsystem() {
-    spark = new SparkMax(1,3, SparkMax.MotorType.kBrushless);
+    spark = new SparkMax(1, 3, SparkMax.MotorType.kBrushless);
   }
 
   @Override
